@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "长安大学表白墙",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-button": "@vant/weapp/button",
+    "van-tab": "@vant/weapp/tab",
+    "van-tabs": "@vant/weapp/tabs"
+  }
+}

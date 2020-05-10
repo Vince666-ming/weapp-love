@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myCollection/myCollection", 
+    "pages/upload/upload",
+    "pages/shareBylikes/shareBylikes",
+    "pages/myupload/myupload", 
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "长安大学表白墙",
+    "navigationBarBackgroundColor": "#343434",
+    "navigationBarTextStyle": "white"
+  },
+  
+  "tabBar": {
+    "color": "#7f8699",
+    "selectedColor": "#5CACEE",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/logs/bar/index-0.jpg",
+        "selectedIconPath": "pages/logs/bar/index-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/logs/bar/me-0.jpg",
+        "selectedIconPath": "pages/logs/bar/me-1.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
